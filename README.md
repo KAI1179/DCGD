@@ -1,29 +1,4 @@
-
-
 # Divide-and-Conquer Grouping Distillation
-
-
-# MDistiller
-
-### Introduction
-
-MDistiller supports the following distillation methods on CIFAR-100, ImageNet and MS-COCO:
-|Method|Paper Link|CIFAR-100|ImageNet|MS-COCO|
-|:---:|:---:|:---:|:---:|:---:|
-|KD| <https://arxiv.org/abs/1503.02531> |&check;|&check;| |
-|FitNet| <https://arxiv.org/abs/1412.6550> |&check;| | |
-|AT| <https://arxiv.org/abs/1612.03928> |&check;|&check;| |
-|NST| <https://arxiv.org/abs/1707.01219> |&check;| | |
-|PKT| <https://arxiv.org/abs/1803.10837> |&check;| | |
-|KDSVD| <https://arxiv.org/abs/1807.06819> |&check;| | |
-|OFD| <https://arxiv.org/abs/1904.01866> |&check;|&check;| |
-|RKD| <https://arxiv.org/abs/1904.05068> |&check;| | |
-|VID| <https://arxiv.org/abs/1904.05835> |&check;| | |
-|SP| <https://arxiv.org/abs/1907.09682> |&check;| | |
-|CRD| <https://arxiv.org/abs/1910.10699> |&check;|&check;| |
-|ReviewKD| <https://arxiv.org/abs/2104.09044> |&check;|&check;|&check;|
-|DKD| <https://arxiv.org/abs/2203.08679> |&check;|&check;|&check;|
-
 
 ### Installation
 
