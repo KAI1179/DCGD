@@ -28,8 +28,6 @@ sudo python setup.py develop
 
 - Our models are at <https://github.com/megvii-research/mdistiller/releases/tag/checkpoints>, please download the checkpoints to `./download_ckpts`
 
-- If test the models on ImageNet, please download the dataset at <https://image-net.org/> and put them to `./data/imagenet`
-
   ```bash
   # evaluate teachers
   python3 tools/eval.py -m resnet32x4 # resnet32x4 on cifar100
