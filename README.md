@@ -48,11 +48,9 @@ sudo python setup.py develop
   # for instance, DKD method.
   python tools/train.py --cfg configs/cifar100/dkd/resn56_res20.yaml
   
-  # for instance, DCGD+KD method.
+  # for instance, DCGD+DKD method.
   python tools/train.py --cfg configs/cifar100/dkd/our_DCGD_DKD_res56_res20.yaml
   
-  # for instance, DCGD+KD method.
-  python tools/train.py --cfg configs/cifar100/kd/dcgd_kd_r56_r20.yaml
   ```
 
 
