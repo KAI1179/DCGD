@@ -17,6 +17,13 @@ from .mobilenetv2 import mobile_half
 from .ShuffleNetv1 import ShuffleV1
 from .ShuffleNetv2 import ShuffleV2
 
+from .WRN40_2_M_r20 import wrn_M_r20
+from .WRN40_2_M_r32 import wrn_M_r32
+from .WRN40_2_M_r44 import wrn_M_r44
+from .resnet56_M_r20 import res56_M_r20
+from .resnet56_M_r32 import res56_M_r32
+from .resnet56_M_r44 import res56_M_r44
+
 
 cifar100_model_prefix = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), 
@@ -63,4 +70,11 @@ cifar_model_dict = {
     "MobileNetV2": (mobile_half, None),
     "ShuffleV1": (ShuffleV1, None),
     "ShuffleV2": (ShuffleV2, None),
+    
+    "wrn_M_r20": (wrn_M_r20, None),
+    "wrn_M_r32": (wrn_M_r32, None),
+    "wrn_M_r44": (wrn_M_r44, None),
+    "res56_M_r20": (res56_M_r20, None),
+    "res56_M_r32": (res56_M_r32, None),
+    "res56_M_r44": (res56_M_r44, None),
 }
