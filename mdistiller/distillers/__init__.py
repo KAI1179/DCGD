@@ -12,7 +12,7 @@ from .SP import SP
 from .VID import VID
 from .ReviewKD import ReviewKD
 from .DKD import DKD
-from .DCGD_DKD import DCGD_DKD
+from .DCGDandDKD import DCGD_DKD
 
 distiller_dict = {
     "NONE": Vanilla,
